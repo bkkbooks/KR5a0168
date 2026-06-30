@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR5a0168/v1
+canonical_location: https://kanripo.org/bkk/KR5a0168/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 洞玄靈寶真靈位業圖
+  identifiers:
+    alt_id:
+    - DZ0167
+    - JY239
+  date: '2015-08-28 23:39:27.204926'
+  source:
+    repository: kanripo
+    path: KR5a0168
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: CK-KZ
+  label: 【重刊道藏輯要】
+- short: CK-KZ-jye
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: YP-C
+  label: 【原版道藏輯要】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0168_000.yaml, hash: 'sha256:50e4f1215c5029a2aa4460a6fecde3305845104f08ef10a7c4effa7cc018448f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0168_000.markers.yaml, hash: 'sha256:63eeec252a22b7aa245b502b7c24e9f586e43dd97dcf7fdea710186e3934baa4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0168_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5683
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:581eb468e6e003301d8e0372f4e81a5afd7ef206cb496865bb3785bb35b9dc0c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

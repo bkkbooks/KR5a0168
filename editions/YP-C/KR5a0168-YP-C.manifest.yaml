@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0168/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5a0168/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶真靈位業圖
+  date: '2015-08-28 23:39:27.204926'
+  source:
+    repository: kanripo
+    path: KR5a0168
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0168_000-YP-C.yaml, hash: 'sha256:88771140a433899ab77929c196f13b38b9c78fe4841323f7f94e0d47a8d23fff'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0168_000-YP-C.markers.yaml, hash: 'sha256:fe599fd4d3aed7aad2e310ab25c58d03ec192e0f7db7434477a90a8288fc506b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0168_YP-C_20ziji-07-0001a
+    span:
+    - body
+    - 0
+    - 5684
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b4536169efcaa921bd68085a31fb893c36e7fce052321e00c04a17e082eae94f
